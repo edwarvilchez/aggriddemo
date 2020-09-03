@@ -10,9 +10,9 @@ export class AppComponent {
 
 // apertura del area para uso de ag-grid
   columnDefs = [
-        {	headerName: 'Marca', field: 'marca', sortble:true, filter:true 		},
-        {	headerName: 'Modelo', field: 'modelo', sortble:true, filter:true 	},
-        {	headerName: 'Precio', field: 'precio', sortble:true, filter:true 	}
+        {	headerName: 'Marca', field: 'marca', sortable:true, filter:true 	},
+        {	headerName: 'Modelo', field: 'modelo', sortable:true, filter:true 	},
+        {	headerName: 'Precio', field: 'precio', sortable:true, filter:true 	}
     ];
 
     rowData = [
